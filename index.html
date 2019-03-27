@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Greatest fraction
+    </title>
+ <meta charset="UTF-8"></meta>
+</head>
+
+<body>
+
+    <script>
+//finding the greatest fraction in a function
+//ternary operator
+
+function findTheBiggestFraction(a, b){
+  a>b ? console.log(`${a} is greater than ${b}`) : console.log(`${b} is greater than ${a}`);
+}
+findTheBiggestFraction(1/2, 3/4);
+findTheBiggestFraction(2/3, 6/11);
+
+
+
+
+
+
+//comparison operators and functions
+
+        function divisor(a, b){
+            if(a % b === 0){
+                console.log(true);
+            } else{
+                console.log(`${a} is not a multiple of ${b}`);
+            }
+        }
+        divisor(4,2);
+        divisor(10,3);
+        divisor(15,2.4);
+
+    </script>
+</body>
+
+</html>
